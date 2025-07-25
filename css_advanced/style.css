@@ -58,7 +58,9 @@ nav ul li a{
     opacity: 0.8;
 }
 
-
+.banner_wrapper a{
+    text-decoration: none;
+}
 ul li a:hover{
     opacity: 1;
     color: #FFFFFF;
@@ -184,16 +186,16 @@ ul li a:hover{
 
 .author_wrapper{
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     /* border: 2px solid red; */
 }
  
 .author_wrapper .author_info{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    
-    padding: 50px;
+    justify-content: space-around;
+
+    padding: 118px 237px 124px 0;
     /* border: 2px solid red; */
 }
 .author_wrapper img{
@@ -208,8 +210,9 @@ ul li a:hover{
 }
 
 .author_info h3{
-    font-size: 22px;
+    font-size: medium;
     font-style: italic;
+    font-weight:lighter ;
     line-height: 33.6px;
     margin: 22px 0 0;
 
@@ -305,4 +308,68 @@ ul li a:hover{
     margin:0 9px 0 0;
     font-size: 15px;
     padding: 0;
+}
+
+
+/* ==Member ship== */
+
+.membership{
+    background-color: #071629;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 160px;
+    margin-top: 37px;
+}
+
+.membership h2{
+    margin: 70px 0 58px;
+    font-weight: lighter;
+    /* letter-spacing: 2; */
+    /* text-align: center; */
+}
+.membership span{
+    color: #C271FF;
+    font-weight: 900;
+}
+
+.membership h3{
+    font-size: small;
+    font-weight: bold;
+    margin-top: 27px;
+}
+
+.membership p{
+    font-size: small;
+}
+.membership_inner{
+    display: flex;
+    /* text-align: center; */
+    /* margin: 0 auto; */
+    justify-content: space-around;
+    text-align: center;
+}
+
+.membership_inner img{
+    width: 43.67px;
+    height: 35.35px;
+}
+
+.member{
+    margin: 0 29px;
+    /* padding: 30px; */
+}
+
+
+.membership button{
+    width: 162px;
+    height: 44px;
+    border-radius: 22px;
+    background-color: #C271FF;
+    border-style: none;
+    margin: 85px 0 52px;
+    font-weight: bolder;
+}
+.membership a{
+    text-decoration: none;
 }
