@@ -221,3 +221,88 @@ ul li a:hover{
     font-style: italic;
     /* letter-spacing: 1.5; */
 }
+
+/*=================================*/
+/*==Video wrapper section layout==*/
+/*===============================*/
+
+.videos_wrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column; 
+    color: #071629;
+ }  
+.videos_wrapper h2{
+    color: #071629;
+    margin: 87px 0 25px 87px;
+    text-align: center;
+}
+
+.videos_wrapper p{
+    color: #071629;
+    padding: 10px;
+}
+
+.videos_wrapper span{
+    color: #C271FF;
+    font-weight: 900;
+
+}
+
+.videos_desc_wrapper{
+    display: flex;
+    /* justify-content: space-around; */
+    padding: 50px;
+}
+.videos_desc_wrapper h3{
+    margin: 18px 0 8px;
+    color: #071629;
+    font-weight: bold;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+.videos_desc1 .videos_desc2 .videos_desc3 .videos_desc4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* padding: 5px; */
+    /* width: 255px; */
+    /* height: 355px; */
+    /* margin: 0 15px 87px 58px;
+    background-color: aquamarine;
+    padding: 20px; */
+}
+
+.philly_wrap{
+    display: flex;
+    justify-content: start;
+    /* margin-right: 5px ; */
+    /* line-height: 27px; */
+}
+
+.philly_wrap img{
+    width: 30px;
+    height: 30px;
+    margin: 14px;
+}
+.philly_wrap h4{
+    color: #C271FF;
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.rating{
+    display: flex
+}
+
+.rating img{
+    align-items: center;
+    margin-left: 14px;
+    margin-right: 70px;
+}
+.rating p{
+    margin:0 9px 0 0;
+    font-size: 15px;
+    padding: 0;
+}
