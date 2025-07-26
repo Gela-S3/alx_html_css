@@ -379,44 +379,65 @@ ul li a:hover{
 
 /*=======FAQ=======*/
 
-.FAQ h2, p, h3{
-    color: #071629;
-    
-}
 
 .FAQ h2{
     text-align: center;
     font-weight: lighter;
     font-size: xx-large;
+    color: #071629;
+    text-align: center;
+
 }
 
 .FAQ{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 67px 271px 84px 249px;
+    padding: 100px 250px 84px;
 }
+
+
+
 
 .FAQ_upper{
     display: flex;
-    /* margin-right: 50px; */
+    justify-content: space-between;
+    margin-bottom: 74px;
 }
-.FAQ_inner_wrapper {
-    margin-right: 50px;
+
+
+
+.FAQ_inner_wrapper p{
+    color: #071629;
+    /* padding:; */
+
 }
+
+
+.FAQ_inner_wrapper h3{
+    color: #071629;
+}
+
+
 
 .FAQ_lower{
     display: flex;
     justify-content: space-between;
+
 }
 
+
 .FAQ_lower h3{
+    color: #071629;
     font-size: medium;
     font-weight: bolder;
+    margin-bottom: 30px;
 }
 
 .FAQ_lower p{
+    color: #071629;
     font-weight: lighter;
     line-height: 1.3;
     letter-spacing: 0cap;
+}
+
+.faq_1{
+    margin-right: 220px;
 }
