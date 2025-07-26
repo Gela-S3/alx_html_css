@@ -475,3 +475,27 @@ ul li a:hover{
 .logo{
     width: 170px;
 }
+
+
+.f_contacts i{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+    color: #071629;
+    text-align: center;
+    text-size-adjust: ;
+}
+i.fa-brands.fa-facebook::before{
+    color: rgb(255, 255, 255);
+    background-color: #071629;
+    border-radius: 100%;
+    border-style: none;
+    border:1 px solid #FFFFFF;
+}
+
+.fa-brands{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
