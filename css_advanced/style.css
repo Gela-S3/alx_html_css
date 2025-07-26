@@ -313,6 +313,7 @@ ul li a:hover{
 
 /* ==Member ship== */
 
+
 .membership{
     background-color: #071629;
     display: flex;
@@ -337,10 +338,12 @@ ul li a:hover{
     font-size: small;
     font-weight: bold;
     margin-top: 27px;
+    color: #FFFFFF;
 }
 
 .membership p{
     font-size: small;
+    color: #FFFFFF;
 }
 .membership_inner{
     display: flex;
@@ -372,4 +375,48 @@ ul li a:hover{
 }
 .membership a{
     text-decoration: none;
+}
+
+/*=======FAQ=======*/
+
+.FAQ h2, p, h3{
+    color: #071629;
+    
+}
+
+.FAQ h2{
+    text-align: center;
+    font-weight: lighter;
+    font-size: xx-large;
+}
+
+.FAQ{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 67px 271px 84px 249px;
+}
+
+.FAQ_upper{
+    display: flex;
+    /* margin-right: 50px; */
+}
+.FAQ_inner_wrapper {
+    margin-right: 50px;
+}
+
+.FAQ_lower{
+    display: flex;
+    justify-content: space-between;
+}
+
+.FAQ_lower h3{
+    font-size: medium;
+    font-weight: bolder;
+}
+
+.FAQ_lower p{
+    font-weight: lighter;
+    line-height: 1.3;
+    letter-spacing: 0cap;
 }
